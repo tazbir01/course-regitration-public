@@ -1,0 +1,75 @@
+[
+    { 
+      "id": 1,
+      "img": "https://i.ibb.co/4RsHvNY/Rectangle-2-2.png",
+      "title": "Introduction to C Programming",
+      "description": "Learn the fundamentals of C programming language, including variables, loops, and functions.",
+      "price": 4999,
+      "credit_hours": 3
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/tCzysDJ/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "description": "Explore the world of algorithms and algorithmic problem-solving techniques. This course covers a wide range of algorithms and their applications in various domains.",
+      "price": 7999,
+      "credit_hours": 4
+    },
+    {
+        "id":3,
+      "img": "https://i.ibb.co/1QFV6wm/Rectangle-2-4.png",
+      "title": "introduction to C++ for DSA",
+      "description": "This course is designed to help you understand the basics of C++ programming and its applications in Data Structures and Algorithms (DSA).",
+      "price": 5999,
+      "credit_hours": 3
+    },
+    {
+        "id":4,
+      "img": "https://i.ibb.co/RjsMKW3/Rectangle-3.png",
+      "title": "Basic Data Structures",
+      "description": "Discover the essential data structures that form the foundation of computer science and programming. This course covers fundamental concepts such as arrays, linked lists, stacks, and queues. You will learn how to create, manipulate, and apply these data structures to solve real-world problems efficiently.",
+      "price": 8999,
+      "credit_hours": 4
+    },
+    {
+        "id":5,
+      "img": "https://i.ibb.co/jk318cf/Rectangle-2.png",
+      "title": "Introduction to OOP Python",
+      "description": "Get started with Object-Oriented Programming (OOP) in Python. Learn how to create classes, objects, and use inheritance to build robust and modular Python applications.",
+      "price": 9999,
+      "credit_hours": 5
+    },
+    {
+        "id":6,
+      "img": "https://i.ibb.co/G59Fkxs/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "description": "Delve into the world of Software Engineering, where you'll learn the principles, methodologies, and best practices for developing high-quality software systems. This course covers requirements analysis, design, testing, and project management.",
+      "price": 6999,
+      "credit_hours": 3
+    },
+    {
+        "id":7,
+      "img": "https://i.ibb.co/PwtTKtW/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "description": "Discover the power of cloud computing with AWS. Learn to deploy and manage scalable and reliable cloud services and solutions. This course covers cloud architecture, infrastructure as code, and key AWS services.",
+      "price": 7999,
+      "credit_hours": 4
+    },
+    {
+        "id":8,
+      "img": "https://i.ibb.co/NFLVx1m/Rectangle-2-1.png",
+      "title": "Database (MySQL)",
+      "description": "Dive into the world of relational databases with MySQL. Learn how to design, create, and manage databases, as well as perform data querying and manipulation. This course is essential for anyone interested in database management and development.",
+      "price": 11999,
+      "credit_hours": 5
+    },
+    {
+        "id":9,
+      "img": "https://i.ibb.co/XxKLDHg/Rectangle-2-6.png",
+      "title": "Problem-Solving Part",
+      "description": "Enhance your problem-solving skills with this course. Learn effective strategies, algorithms, and techniques for solving complex problems in various domains. This course equips you with the tools you need to tackle challenging computational tasks.",
+      "price": 8999,
+      "credit_hours": 4
+    }
+  ]
+  
