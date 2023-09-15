@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
@@ -27,4 +28,7 @@ const Courses = ({handleSelectButton}) => {
     );
 };
 
+Courses.propTypes = {
+    handleSelectButton: PropTypes.array
+}
 export default Courses;

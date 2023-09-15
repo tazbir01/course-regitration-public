@@ -23,6 +23,8 @@ const Course = ({ course, handleSelectButton }) => {
 };
 
 Course.propTypes = {
-    course: PropTypes.object
+    course: PropTypes.object,
+    handleSelectButton:PropTypes.array
+
 }
 export default Course;

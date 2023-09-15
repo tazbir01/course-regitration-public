@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'; 
 
 const Cart = ({ courses }) => {
     console.log(courses)
@@ -18,4 +18,7 @@ const Cart = ({ courses }) => {
     );
 };
 
+Cart.proptypes ={
+    courses:PropTypes.object
+}
 export default Cart;
