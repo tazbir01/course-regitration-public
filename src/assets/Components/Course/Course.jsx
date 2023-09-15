@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 const Course = ({ course, handleSelectButton }) => {
     const { credit_hours, description,img, price, title } = course;
 
+    
+
     return (
         <div className=" bg-slate-200 rounded-xl">
             <div className="flex justify-center ">

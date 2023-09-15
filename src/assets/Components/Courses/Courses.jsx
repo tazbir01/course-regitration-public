@@ -21,6 +21,7 @@ const Courses = ({handleSelectButton}) => {
                         key={courses.id} 
                         course={courses}
                         handleSelectButton={handleSelectButton}
+                        
                         ></Course>)
                 }
             </div>
