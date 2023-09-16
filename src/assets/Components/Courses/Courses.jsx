@@ -30,6 +30,6 @@ const Courses = ({handleSelectButton}) => {
 };
 
 Courses.propTypes = {
-    handleSelectButton: PropTypes.array
+    handleSelectButton: PropTypes.func
 }
 export default Courses;

@@ -1,7 +1,6 @@
 import { useState } from "react"
 import Cart from "./assets/Components/Cart/Cart"
 import Courses from "./assets/Components/Courses/Courses"
-// import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -12,36 +11,29 @@ function App() {
   const [creditHour, setCreditHour] = useState(0);
   const [remaining, setRemaining] = useState(20)
 
-  const handleSelectButton =(course)=>{
-    console.log(course.id)
+  const handleSelectButton = (course) => {
     const isExist = courses.find(item => item.id == course.id)
-    // console.log(isExist)
-    // let count = 0
-    if(isExist){
+
+    if (isExist) {
       toast('You have taken this already')
     }
-    else{
+    else {
       const newTotalPrice = totalPrice + course.price;
       const newCreditHour = creditHour + course.credit_hours;
       const newRemaining = remaining - course.credit_hours;
 
-      if(newCreditHour <= 20){
-        return ( 
+      if (newCreditHour <= 20 || newRemaining >= 0) {
+        return (
           setCreditHour(newCreditHour),
           setCourses([...courses, course]),
           setRemaining(newRemaining)
         )
-      }else{
+      } else {
         toast("You can't take more than 20 Credit.")
       }
-
-      
       setTotalPrice(newTotalPrice)
-      
-    
     }
   }
-
 
   return (
     <>
