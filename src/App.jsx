@@ -29,7 +29,7 @@ function App() {
           setRemaining(newRemaining)
         )
       } else {
-        toast("You can't take more than 20 Credit.")
+        toast("You can't take more than 20 Credit Hour.")
       }
       setTotalPrice(newTotalPrice)
     }
