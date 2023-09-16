@@ -14,14 +14,12 @@ const Courses = ({handleSelectButton}) => {
 
     return (
         <div className="w-3/4">
-            {/* <h2>Total Courses: {courses.length}</h2> */}
             <div className="grid grid-cols-3 gap-4">
                 {
                     courses.map(courses => <Course 
                         key={courses.id} 
                         course={courses}
                         handleSelectButton={handleSelectButton}
-                        
                         ></Course>)
                 }
             </div>
